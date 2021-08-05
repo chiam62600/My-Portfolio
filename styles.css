@@ -1,1 +1,19 @@
+.header {
+    text-align: center;
 
+}
+.list {
+    padding-left: 50px;
+}
+
+.video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    } 
+
+    .paragraph {
+        padding-left: 230px;
+        padding-right: 230px;
+        text-align: center;
+    }
