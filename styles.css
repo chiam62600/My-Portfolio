@@ -10,6 +10,8 @@
 .subheader{
     text-align: center;
     font-size: 2.5em;
+    grid-area: bio;
+    padding-left: 30px;
     
 }
 .list {
@@ -20,10 +22,31 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-right: 20x;
+    grid-area: video;
     } 
 
     .paragraph {
-        padding-left: 230px;
-        padding-right: 230px;
-        text-align: center;
+        
+        padding-left: 30px;
+     
+        
+        grid-area: paragraph;
+    }
+
+    .wrappers {
+        display: grid;
+        grid-gap: 10px;
+        
+       
+        
+        border-radius: 5px;
+      
+        grid-template-columns: 120px;
+        grid-template-areas: 
+        'video video bio ...'
+        'video video paragraph paragraph'
+        ;
+    
+    
     }
